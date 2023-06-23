@@ -10,7 +10,7 @@ const CardTestimonios = () => {
             <p className='text-white bg'>Fylo has improved our team productivy by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
         </div>
         <div className='flex bg pt-8'>
-              <div className='bg'>
+              <div className='bg pe-5'>
                   <img src={Avatar} className='rounded-full w-12' alt="avatar" />
               </div>
               <div className='bg'>

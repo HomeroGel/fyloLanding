@@ -5,6 +5,8 @@
 
 body{
     font-size: 14px;
+    background-color: hsl(218, 28%, 13%);
+
 }
 .bg{
     background-color: hsl(219, 30%, 18%);
@@ -14,7 +16,9 @@ body{
     background-color: hsl(176, 68%, 64%);
 }
 
-
+.containerContact{
+  background-color: hsl(217, 28%, 15%);
+}
 
 a, p{
     font-family: 'Noto Sans', sans-serif;
@@ -25,11 +29,15 @@ h2{
     font-weight: 700;
 }
 
-
-
-*{
-    background-color: hsl(218, 28%, 13%);
+input[type="email"]::-webkit-input-placeholder{
+  padding-left: 2rem ;
 }
+
+.footer{
+  background-color: hsl(216, 53%, 9%);
+  /* height: 30vh; */
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
